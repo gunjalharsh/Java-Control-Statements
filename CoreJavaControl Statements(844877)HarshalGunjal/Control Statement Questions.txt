@@ -1,0 +1,285 @@
+
+-----------------PROBLEM STATEMENTS IN JAVA USING CONTROL STATEMENTS----------------
+                 **************************************************
+
+1. Write a program to print the following series
+2 5 11 17 23 31 41 47 59  ...
+----------------------------------------------------------------
+2. Write a java program that allows the user to enter 'n' numbers and 
+finds the number of positive numbers entered and the sum of all positive 
+numbers entered using a for loop.
+
+Sample Input and Output:
+~~~~~~~~~~~~~~~~~~~~~~~
+Enter the value of n
+4
+Enter the number
+5
+Enter the number
+-2
+Enter the number
+-1
+Enter the number
+6
+-------------------------------------------------------------------------
+
+3. 
+Character experience is one of the main attractions in the Disneyland.
+'Alice' from the movie 'Alice in Wonderland' is one of the famous characters. 
+Patrick and Johnny just reached Disneyland and decided to have character
+ experience. Since both of them like Alice, they decided to visit Alice
+ first.
+To their surprise, Alice was missing. 
+Then they realized that they have to solve puzzle to meet Alice.
+They found many ways numbered from 1,2,3,........18.
+They were confused about the way that will lead them to Alice.
+They found a cute bird, standing in one of the tree.
+The bird was chirping a number. They realised that the number was the
+clue to find the correct path.
+They also found a note with a message- 'sum the digits'.
+ That is, if the bird said 23, then the 5th (2+3=5) way will lead them to
+ Alice's place. They were already confused, so pls help Patrick and
+ Johnny in finding the correct route... 
+
+Input Format:
+Input consists of an integer corresponding to the 2-digit number.
+
+SAMPLE INPUT & OUTPUT:
+~~~~~~~~~~~~~~~~~~~~
+The bird said :
+23
+Patrick and Johnny must go in path-5 to find Alice
+------------------------------------------------------------------------------
+4. Sita wanted to celebrate the good news of her promotion.
+She took her niece Mahirl along with her and went to Fun Mall to meet her 
+close friend Gita.
+Gita was busy with her customers and she asked her to wait for an hour.
+Mahirl grew restless sitting idle. So Sita took her around the Mall. 
+A competition for kids was going on in the 1st floor.
+They were given 'n' fancy sticks in different colors of 2 cm length and they 
+were asked to form the largest square possible.
+Many kids were playing with the fancy sticks. Mahirl always likes colorful 
+sticks and she also wanted to take part in the competition.
+But the organisers told that the competition is open only for kids above 10 
+years.
+Mahirl started crying and they allowed her to participate in the contest.
+They asked to Sita to give her instructions. But Sita should not touch any 
+of the sticks.
+Sita has good reasoning skills and she was wondering what could be the area 
+of the largest square that can be formed using 'n' sticks.
+Can you help Sita out and help Mahirl in winning the prize?
+
+Sample Input:
+9
+Sample Output:
+16
+---------------------------------------------------------------------------
+5.The next game for the kids was based on Chess Board.
+ 
+All kids were asked the same question ""How many bishops can be placed on a 
+chessboard without threatening each other? The Chess Board size is N*N".
+Mahirl wanted to participate in this game too.
+Sita knows that a bishop's moves are quite complicated and it is difficult to
+ make a 4—year kid understand the bishop moves. A bishop can move to any 
+distance in any of the four diagonal directions. A bishop threatens another
+ bishop if it can move to the other bishop's position.
+Sita needs to find a way in which Mahirl could give the correct anwer to this 
+question. Mahirl is good at addition and subtraction. She is not familiar
+ with other arithmetic operations yet.
+Help Sita to compute the maximum number of bishops that can be placed on a chessboard in such a way that no two bishops threaten each other and to make Mahirl win in this game too.
+
+Input Format:
+~~~~~~~~~~~~~
+Input consists of a single integer N representing the size of the i-th
+ chessboard. [N <= 100000]
+Output Format:
+~~~~~~~~~~~~~
+Output consists of a single integer , the maximum number of bishops that can
+ be placed on the chessboard without threatening each other.
+
+Sample Input1:
+2
+Sample Output1:
+2
+
+Sample Input2:
+4
+Sample Output2:
+6
+
+------------------------------------------------------------------------------
+6. This program must calculate how many tiles are needed to tile a floor.
+ The tiles are 8 inches by 8 inches. Tiles can be used as a whole or a part 
+of the tile can be used. Only one usable piece can be cut from a tile. 
+That is, if a piece is cut from a tile, the rest of the tile must be thrown
+ away. The program accepts the length and width of the room and returns how
+ many whole tiles are used and how many part tiles are used. The length is
+ given in inches. 
+ 
+Input Format:
+Input consists of 2 integers. The first integer corresponds to the width of 
+the room and the second integer corresponds to the length of the room.
+ 
+Output Format:
+Output consists of 2 integers. The first integer corresponds to the number 
+of whole tiles used and the second integer corresponds to the number of part
+ tiles used.
+ 
+ 
+Sample Input 1:
+160
+240
+ 
+Sample Output 1:
+600
+0
+ 
+ 
+ 
+Sample Input 2:
+100
+120
+ 
+ 
+Sample Output 2:
+180
+15
+ 
+----------------------------------------------------------------------------
+7. A maths teacher asks her students to give 3 examples for positive odd
+ numbers. When the student specifies a correct answer, his/her score is
+ incremented by 1. When the student specifies a positive even number, 
+his/her score is decremented by 0.5. When the student specifies a negative
+ number, he/she will not be given any more chances to correct his or her
+ mistake and his/her score will be decremented by 1. So a student's turn 
+comes to an end when he/she has correctly specified 3 positive odd numbers 
+or when the student has specified a negative number.
+  
+Few students didn't know the difference between odd numbers and even numbers
+ and they made many mistakes and so it was difficult for the teacher to 
+maintain the scores. The teacher asks for your help.
+  
+Can you please help her by writing a  program to calculate the score?
+  
+Input Format:
+Input consists of a list of integers.
+  
+Output Format:
+Output consists of a single line. The score needs to be displayed correct to
+ 1 decimal place. Refer sample output for details.
+  
+[For this exercise, don't worry about duplicate odd numbers. Even if the 
+students specifies the same odd number thrice, it is accepted].
+ 
+Sample Input 1:
+1
+3
+5
+Sample Output 1:
+3.0
+  
+Sample Input 2:
+1
+2
+5
+6
+7
+Sample Output 2:
+2.0
+  
+Sample Input 3:
+2
+-4
+Sample Output 3:
+-1.5
+  
+Sample Input 4:
+3
+3
+3
+Sample Output 4:
+3.0
+---------------------------------------------------------------------------
+8. Drona normally trains his disciples using a board which consists of 
+concentric circles. When the student correctly hits the center of the 
+concentric circles, his score is 100. The score gets reduced depending on
+ where the students hit on the board. When the student hits outside the board,
+ his score is 0. Drona will not allow a student to have his food unless he 
+scores 100. Arjuna will always hit the target in his first attempt and he
+ will leave early.
+Others may take more turns to reach the score of 100.
+Can you write a program to determine the number of turns a disciple takes
+ to reach the target score of 'n' ?
+ 
+Input Format:
+Input consists of a list of positive integers. The first integer corresponds
+ to the target score 'n'. Assume that all the other integers input are less 
+than or equal to n.
+ 
+Output Format:
+Output consists of a single line. Refer sample output for format details.
+ 
+Sample Input 1:
+100
+4
+40
+60
+Sample Output 1:
+The number of turns is 3
+ 
+Sample Input 2:
+1000
+1000
+Sample Output 2:
+The number of turns is 1
+--------------------------------------------------------------------------
+9. Write a java program to print all numbers between a and b
+ (a and b inclusive) using a for loop.
+
+Input Format:
+Input consists of 2 integers. The first integer corresponds to a and the 
+second integer corresponds to b. Assume a<=b.
+
+Output Format:
+Refer Sample Input and Output for formatting specifications.
+
+
+Sample Input and Output:
+Enter the value of a
+4
+Enter the value of b
+10
+Output:
+4
+5
+6
+7
+8
+9
+10
+----------------------------------------------------------------------------
+10. The environmental eco club has discovered a new Amoeba that grows in the
+ order of a Fibonacci series every month. They are exhibiting their amoeba 
+in a national conference. They want to know the size of the amoeba at a 
+particular time instant. If a particular month’s index is given can you
+ write a program that displays the amoeba’s size……???
+
+
+  
+Note: The size of the amoeba on month 1, 2, 3, 4, 5, 6, .. will be 0, 1, 1, 2,
+ 3, 5, 8 respectively.
+ 
+Sample input and Output 1:
+
+Enter the number of Months :
+7
+The amoeba size is 8
+ 
+ 
+Sample input and Output 1:
+Enter the number of Months :
+12
+The amoeba size is 89
+------------------------------------------------------------------------------
+Problem statements on control statements.txt
+Displaying Problem statements on control statements.txt.
